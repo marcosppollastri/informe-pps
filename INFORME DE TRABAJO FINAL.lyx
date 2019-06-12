@@ -211,7 +211,7 @@ Resumen
 El alumno realizó actividades laborales bajo relación contractual en la
  Universidad Nacional de La Rioja (UNLaR), específicamente en la Escuela
  de Informática de la misma, dependiente de la Subsecretaría de Graduados
- del Departamento Academico de Ciencias Exactas, Fisicas y Naturales (DACEFyN).
+ del Departamento Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN).
 \end_layout
 
 \begin_layout Standard
@@ -282,22 +282,22 @@ La Educación Superior tiene por finalidad proporcionar formación científica,
 Su representante es el Sr.
  Rector de la Universidad, Prof.
  Lic.
- Fabian Calderon, electo democraticamente segun lo establecido en el Estatuto
+ Fabián Calderón, electo democráticamente según lo establecido en el Estatuto
  Universitario.
 \end_layout
 
 \begin_layout Standard
-La UNLaR tiene presencia en todos los departamentos de la pronvincia a través
+La UNLaR tiene presencia en todos los departamentos de la provincia a través
  de sedes, siendo la Sede Capital la central.
  La misma se encuentra ubicada en Av.
  Laprida XXXX, de la Ciudad de La Rioja (C.P 5300).
 \end_layout
 
 \begin_layout Standard
-A su vez, posee una organización basada en Departamentos Acádemicos, distintos
+A su vez, posee una organización basada en Departamentos Académicos, distintos
  de la clásica distribución en facultades.
- Siendo la actividad expuesta en este informe, realizada en el Departámento
- Acádemico de Ciencias Exactas, Fisicas y Naturales (DACEFyN), y su correspondie
+ Siendo la actividad expuesta en este informe, realizada en el Departamento
+ Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN), y su correspondie
 nte Subsecretaría de Graduados.
 \end_layout
 
@@ -305,10 +305,14 @@ nte Subsecretaría de Graduados.
 Nómina de Autoridades
 \end_layout
 
+\begin_layout Subsubsection
+UNLaR
+\end_layout
+
 \begin_layout Enumerate
 Rector: Prof.
  Lic.
- Fabian Calderon.
+ Fabián Calderón.
 \end_layout
 
 \begin_layout Enumerate
@@ -316,14 +320,41 @@ Vicerrector: Ing.
  José Gaspanello.
 \end_layout
 
-\begin_layout Enumerate
-Decano del DACEFyN: Lic.
- Marcelo Martinez.
+\begin_layout Subsubsection
+DACEFyN
 \end_layout
 
 \begin_layout Enumerate
-Subsecretario de Graduados de DACEFyN: Lic.
- Luis Bazan.
+
+\series bold
+Decano:
+\series default
+ Lic.
+ Marcelo Martínez.
+\end_layout
+
+\begin_layout Enumerate
+
+\noun on
+Secretario Académico:
+\noun default
+ Ing.
+ Eugenio Herrera.
+\end_layout
+
+\begin_layout Enumerate
+Secretaria Administrativa: Srta.
+ Rosana Díaz.
+\end_layout
+
+\begin_layout Enumerate
+Subsecretario de Graduados: Lic.
+ Luis Bazán.
+\end_layout
+
+\begin_layout Enumerate
+Subsecretaria Estudiantil: Srta.
+ Leticia Aranda.
 \end_layout
 
 \begin_layout Enumerate
@@ -331,13 +362,85 @@ Director de la Escuela de Informática: Lic.
  Hernán Nieto.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Organigrama
 \end_layout
 
 \begin_layout Standard
-A continuación se presenta el organigrama del Departamento Acádemico de
+A continuación se presenta el organigrama del Departamento Académico de
  Ciencias Exactas Físicas y Naturales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/organigrama.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Objetivos
+\end_layout
+
+\begin_layout Standard
+Según el árticulo 4º de la Ley de Educación Superior, los objetivos de toda
+ Universidad deben ser:
+\end_layout
+
+\begin_layout Enumerate
+Formar científicos, profesionales y técnicos, que se caractericen por la
+ solidez de su formación y por su compromiso con la sociedad de la que forman
+ parte;
+\end_layout
+
+\begin_layout Enumerate
+Preparar para el ejercicio de la docencia en todos los niveles y modalidades
+ del sistema educativo;
+\end_layout
+
+\begin_layout Enumerate
+Promover el desarrollo de la investigación y las creaciones artísticas,
+ contribuyendo al desarrollo científico, tecnológico y cultural de la Nación;
+\end_layout
+
+\begin_layout Enumerate
+Garantizar crecientes niveles de calidad y excelencia en todas las opciones
+ institucionales del sistema;
+\end_layout
+
+\begin_layout Enumerate
+Profundizar los procesos de democratización en la Educación Superior, contribuir
+ a la distribución equitativa del conocimiento y asegurar la igualdad de
+ oportunidades;
+\end_layout
+
+\begin_layout Enumerate
+Articular la oferta educativa de los diferentes tipos de instituciones que
+ la integran;:
+\end_layout
+
+\begin_layout Enumerate
+Promover una adecuada diversificación de los estudios de nivel superior,
+ que atienda tanto las expectativas y demandas de la población como a los
+ requerimientos del sistema cultural y de la estructura productiva
+\end_layout
+
+\begin_layout Enumerate
+Propender a un aprovechamiento integral de los recursos humanos y materiales
+ asignados;
+\end_layout
+
+\begin_layout Enumerate
+Incrementar y diversificar las oportunidades de actualización, perfeccionamiento
+ y reconversión para los integrantes del sistema y para sus egresados;
+\end_layout
+
+\begin_layout Enumerate
+Promover mecanismos asociativos para la resolución de los problemas nacionales,
+ regionales, continentales y mundiales.
 \end_layout
 
 \end_body
