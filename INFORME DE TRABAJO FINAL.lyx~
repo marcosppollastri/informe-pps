@@ -1,10 +1,15 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass scrartcl
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language spanish-mexico
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -52,7 +55,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -61,10 +63,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style french
-\dynamic_quotes 0
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -211,17 +210,17 @@ Resumen
 El alumno realizó actividades laborales bajo relación contractual en la
  Universidad Nacional de La Rioja (UNLaR), específicamente en la Escuela
  de Informática de la misma, dependiente de la Subsecretaría de Graduados
- del Departamento Academico de Ciencias Exactas, Fisicas y Naturales (DACEFyN).
+ del Departamento Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN).
 \end_layout
 
 \begin_layout Standard
-El alumno se desempeño bajo el cargo de Profesor de Programación del curso
- de capacitación 
-\begin_inset Quotes fls
+El alumno se desempeño bajo el cargo de Capacitador de Programación del
+ curso de capacitación 
+\begin_inset Quotes eld
 \end_inset
 
 Plan 111Mil Programadores - Analista del Conocimiento, Trayecto de Programador
-\begin_inset Quotes frs
+\begin_inset Quotes erd
 \end_inset
 
 .
@@ -259,7 +258,7 @@ Según el Art.
  3º de dicha ley: 
 \shape italic
 
-\begin_inset Quotes fls
+\begin_inset Quotes eld
 \end_inset
 
 La Educación Superior tiene por finalidad proporcionar formación científica,
@@ -270,7 +269,7 @@ La Educación Superior tiene por finalidad proporcionar formación científica,
  y solidaria, reflexivas, críticas, capaces de mejorar la calidad de vida,
  consolidar el respeto al medio ambiente, a las instituciones de la República
  y a la vigencia del orden democrático
-\begin_inset Quotes frs
+\begin_inset Quotes erd
 \end_inset
 
 
@@ -282,22 +281,22 @@ La Educación Superior tiene por finalidad proporcionar formación científica,
 Su representante es el Sr.
  Rector de la Universidad, Prof.
  Lic.
- Fabian Calderon, electo democraticamente segun lo establecido en el Estatuto
+ Fabián Calderón, electo democráticamente según lo establecido en el Estatuto
  Universitario.
 \end_layout
 
 \begin_layout Standard
-La UNLaR tiene presencia en todos los departamentos de la pronvincia a través
+La UNLaR tiene presencia en todos los departamentos de la provincia a través
  de sedes, siendo la Sede Capital la central.
  La misma se encuentra ubicada en Av.
  Laprida XXXX, de la Ciudad de La Rioja (C.P 5300).
 \end_layout
 
 \begin_layout Standard
-A su vez, posee una organización basada en Departamentos Acádemicos, distintos
+A su vez, posee una organización basada en Departamentos Académicos, distintos
  de la clásica distribución en facultades.
- Siendo la actividad expuesta en este informe, realizada en el Departámento
- Acádemico de Ciencias Exactas, Fisicas y Naturales (DACEFyN), y su correspondie
+ Siendo la actividad expuesta en este informe, realizada en el Departamento
+ Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN), y su correspondie
 nte Subsecretaría de Graduados.
 \end_layout
 
@@ -305,10 +304,14 @@ nte Subsecretaría de Graduados.
 Nómina de Autoridades
 \end_layout
 
+\begin_layout Subsubsection
+UNLaR
+\end_layout
+
 \begin_layout Enumerate
 Rector: Prof.
  Lic.
- Fabian Calderon.
+ Fabián Calderón.
 \end_layout
 
 \begin_layout Enumerate
@@ -316,14 +319,41 @@ Vicerrector: Ing.
  José Gaspanello.
 \end_layout
 
-\begin_layout Enumerate
-Decano del DACEFyN: Lic.
- Marcelo Martinez.
+\begin_layout Subsubsection
+DACEFyN
 \end_layout
 
 \begin_layout Enumerate
-Subsecretario de Graduados de DACEFyN: Lic.
- Luis Bazan.
+
+\series bold
+Decano:
+\series default
+ Lic.
+ Marcelo Martínez.
+\end_layout
+
+\begin_layout Enumerate
+
+\noun on
+Secretario Académico:
+\noun default
+ Ing.
+ Eugenio Herrera.
+\end_layout
+
+\begin_layout Enumerate
+Secretaria Administrativa: Srta.
+ Rosana Díaz.
+\end_layout
+
+\begin_layout Enumerate
+Subsecretario de Graduados: Lic.
+ Luis Bazán.
+\end_layout
+
+\begin_layout Enumerate
+Subsecretaria Estudiantil: Srta.
+ Leticia Aranda.
 \end_layout
 
 \begin_layout Enumerate
@@ -331,13 +361,394 @@ Director de la Escuela de Informática: Lic.
  Hernán Nieto.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Organigrama
 \end_layout
 
 \begin_layout Standard
-A continuación se presenta el organigrama del Departamento Acádemico de
+A continuación se presenta el organigrama del Departamento Académico de
  Ciencias Exactas Físicas y Naturales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/organigrama.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Objetivos
+\end_layout
+
+\begin_layout Standard
+Según el árticulo 4º de la Ley de Educación Superior, los objetivos de toda
+ Universidad deben ser:
+\end_layout
+
+\begin_layout Enumerate
+Formar científicos, profesionales y técnicos, que se caractericen por la
+ solidez de su formación y por su compromiso con la sociedad de la que forman
+ parte;
+\end_layout
+
+\begin_layout Enumerate
+Preparar para el ejercicio de la docencia en todos los niveles y modalidades
+ del sistema educativo;
+\end_layout
+
+\begin_layout Enumerate
+Promover el desarrollo de la investigación y las creaciones artísticas,
+ contribuyendo al desarrollo científico, tecnológico y cultural de la Nación;
+\end_layout
+
+\begin_layout Enumerate
+Garantizar crecientes niveles de calidad y excelencia en todas las opciones
+ institucionales del sistema;
+\end_layout
+
+\begin_layout Enumerate
+Profundizar los procesos de democratización en la Educación Superior, contribuir
+ a la distribución equitativa del conocimiento y asegurar la igualdad de
+ oportunidades;
+\end_layout
+
+\begin_layout Enumerate
+Articular la oferta educativa de los diferentes tipos de instituciones que
+ la integran;:
+\end_layout
+
+\begin_layout Enumerate
+Promover una adecuada diversificación de los estudios de nivel superior,
+ que atienda tanto las expectativas y demandas de la población como a los
+ requerimientos del sistema cultural y de la estructura productiva
+\end_layout
+
+\begin_layout Enumerate
+Propender a un aprovechamiento integral de los recursos humanos y materiales
+ asignados;
+\end_layout
+
+\begin_layout Enumerate
+Incrementar y diversificar las oportunidades de actualización, perfeccionamiento
+ y reconversión para los integrantes del sistema y para sus egresados;
+\end_layout
+
+\begin_layout Enumerate
+Promover mecanismos asociativos para la resolución de los problemas nacionales,
+ regionales, continentales y mundiales.
+\end_layout
+
+\begin_layout Subsection
+Acerca del Plan 111Mil Programadores
+\end_layout
+
+\begin_layout Standard
+El Plan 111Mil Programadores es un plan nacional creado por el Ministerio
+ de Producción de la Nación en el año 2016.
+ El mismo tiene como objetivo la formación de 111 mil profesionales de programac
+ión en la Republica Argentina, a través de la intervención de dictados de
+ cursos intensivos de formación preparados para las exigencias del mercado
+ laboral actual.
+ 
+\end_layout
+
+\begin_layout Standard
+Entre los contenidos dictados se encuentran:
+\end_layout
+
+\begin_layout Itemize
+Técnicas de programación.
+\end_layout
+
+\begin_layout Itemize
+Programación Orientada a Objetos con lenguaje Java.
+\end_layout
+
+\begin_layout Itemize
+Metodologías de desarrollo.
+\end_layout
+
+\begin_layout Itemize
+Manejo de Bases de Datos en MySQL.
+\end_layout
+
+\begin_layout Standard
+Al finalizar el cursado, el alumno podrá tomar un examen que lo certifique
+ como "Análista del conocimiento - trayecto programador".
+ 
+\end_layout
+
+\begin_layout Standard
+En este marco, la Universidad Nacional de La Rioja por intermedio de la
+ Escuela de Informática perteneciente a la sub secretaría de Graduados del
+ Departamento Academico de Ciencias Exactas, Fisicas y Naturales, se adhiere
+ a este plan para convertirse en una sede más del mismo, permitiendo su
+ dictado para las personas residentes de la Ciudad de La Rioja.
+\end_layout
+
+\begin_layout Subsection
+Análisis organizacional de la UNLaR
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\noun on
+Criterios
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\noun on
+Tipos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Finalidad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sin fines de lucro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tamaño
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grande
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Localización
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Regional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propiedad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estatal
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nacionalidad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nacional
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Producción
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Servicios
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grado de Integración
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parcialmente integrada
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Desarrollo de la actividad laboral
+\end_layout
+
+\begin_layout Subsection
+Periodos de actividad
+\end_layout
+
+\begin_layout Standard
+La relación contractual tuvo como vigencia el periodo comprendido por las
+ fechas entre 10 de Septiembre de 2018 y 8 de Marzo de 2019.
+\end_layout
+
+\begin_layout Subsection
+Actividades solicitadas
+\end_layout
+
+\begin_layout Enumerate
+Planificación de calendario de clases.
+\end_layout
+
+\begin_layout Enumerate
+Dictado de clases presenciales acerca de programación orientada a objetos,
+ manejo de bases de datos, desarrollo de software, entre otros.
+\end_layout
+
+\begin_layout Enumerate
+Manejo y administración del espacio de aprendizaje virtual EVA UNLAR.
+\end_layout
+
+\begin_layout Enumerate
+Elaboración de material educativo digital.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Preparación de simulacros de exámenes.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Ser veedor de exámenes de certificación.
+\end_layout
+
+\begin_layout Subsubsection
+Dictado de clases presenciales
+\end_layout
+
+\begin_layout Standard
+Las clases presenciales constan de clases de cuatro horas de duración, en
+ modalidad presencial.
+ La misma se dividio en dos secciones, siendo dos horas de dictado teorico
+ y dos horas de resolución de problemas practicos.
+\end_layout
+
+\begin_layout Standard
+Para poder elaborar las clases, el capacitador debe preparar el material
+ teorico correspondiente en base a la planificación de clases previamente
+ elaborada.
+ Paso seguido, planificar o elaborar los ejercicios practicos que serán
+ propuestos a los alumnos.
+\end_layout
+
+\begin_layout Standard
+Cada clase tiene como objetivo que el alumno aprenda un nuevo conocimiento
+ relacionado con la programación e inmediatamente pueda aplicarlo en un
+ ejemplo practico.
+ 
+\end_layout
+
+\begin_layout Standard
+Entre los recursos educativos que se utilizaron fueron:
+\end_layout
+
+\begin_layout Itemize
+Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
 \end_layout
 
 \end_body

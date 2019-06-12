@@ -1,15 +1,10 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass scrartcl
-\begin_preamble
-% Added by lyx2lyx
-\renewcommand{\textendash}{--}
-\renewcommand{\textemdash}{---}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language spanish-mexico
@@ -26,6 +21,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -55,6 +52,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -63,7 +61,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -214,13 +215,13 @@ El alumno realizó actividades laborales bajo relación contractual en la
 \end_layout
 
 \begin_layout Standard
-El alumno se desempeño bajo el cargo de Capacitador de Programación del
- curso de capacitación 
-\begin_inset Quotes eld
+El alumno se desempeño bajo el cargo de Profesor de Programación del curso
+ de capacitación 
+\begin_inset Quotes fls
 \end_inset
 
 Plan 111Mil Programadores - Analista del Conocimiento, Trayecto de Programador
-\begin_inset Quotes erd
+\begin_inset Quotes frs
 \end_inset
 
 .
@@ -258,7 +259,7 @@ Según el Art.
  3º de dicha ley: 
 \shape italic
 
-\begin_inset Quotes eld
+\begin_inset Quotes fls
 \end_inset
 
 La Educación Superior tiene por finalidad proporcionar formación científica,
@@ -269,7 +270,7 @@ La Educación Superior tiene por finalidad proporcionar formación científica,
  y solidaria, reflexivas, críticas, capaces de mejorar la calidad de vida,
  consolidar el respeto al medio ambiente, a las instituciones de la República
  y a la vigencia del orden democrático
-\begin_inset Quotes erd
+\begin_inset Quotes frs
 \end_inset
 
 
@@ -440,319 +441,6 @@ Incrementar y diversificar las oportunidades de actualización, perfeccionamient
 \begin_layout Enumerate
 Promover mecanismos asociativos para la resolución de los problemas nacionales,
  regionales, continentales y mundiales.
-\end_layout
-
-\begin_layout Subsection
-Acerca del Plan 111Mil Programadores
-\end_layout
-
-\begin_layout Standard
-El Plan 111Mil Programadores es un plan nacional creado por el Ministerio
- de Producción de la Nación en el año 2016.
- El mismo tiene como objetivo la formación de 111 mil profesionales de programac
-ión en la Republica Argentina, a través de la intervención de dictados de
- cursos intensivos de formación preparados para las exigencias del mercado
- laboral actual.
- 
-\end_layout
-
-\begin_layout Standard
-Entre los contenidos dictados se encuentran:
-\end_layout
-
-\begin_layout Itemize
-Técnicas de programación.
-\end_layout
-
-\begin_layout Itemize
-Programación Orientada a Objetos con lenguaje Java.
-\end_layout
-
-\begin_layout Itemize
-Metodologías de desarrollo.
-\end_layout
-
-\begin_layout Itemize
-Manejo de Bases de Datos en MySQL.
-\end_layout
-
-\begin_layout Standard
-Al finalizar el cursado, el alumno podrá tomar un examen que lo certifique
- como "Análista del conocimiento - trayecto programador".
- 
-\end_layout
-
-\begin_layout Standard
-En este marco, la Universidad Nacional de La Rioja por intermedio de la
- Escuela de Informática perteneciente a la sub secretaría de Graduados del
- Departamento Academico de Ciencias Exactas, Fisicas y Naturales, se adhiere
- a este plan para convertirse en una sede más del mismo, permitiendo su
- dictado para las personas residentes de la Ciudad de La Rioja.
-\end_layout
-
-\begin_layout Subsection
-Análisis organizacional de la UNLaR
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="2">
-<features tabularvalignment="middle">
-<column alignment="left" valignment="top">
-<column alignment="center" valignment="top">
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\noun on
-Criterios
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-\noun on
-Tipos
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Finalidad
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sin fines de lucro
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Tamaño
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Grande
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Localización
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Regional
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Propiedad
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Estatal
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nacionalidad
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nacional
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Producción
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Servicios
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Grado de Integración
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Parcialmente integrada
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Desarrollo de la actividad laboral
-\end_layout
-
-\begin_layout Subsection
-Periodos de actividad
-\end_layout
-
-\begin_layout Standard
-La relación contractual tuvo como vigencia el periodo comprendido por las
- fechas entre 10 de Septiembre de 2018 y 8 de Marzo de 2019.
-\end_layout
-
-\begin_layout Subsection
-Actividades solicitadas
-\end_layout
-
-\begin_layout Enumerate
-Planificación de calendario de clases.
-\end_layout
-
-\begin_layout Enumerate
-Dictado de clases presenciales acerca de programación orientada a objetos,
- manejo de bases de datos, desarrollo de software, entre otros.
-\end_layout
-
-\begin_layout Enumerate
-Manejo y administración del espacio de aprendizaje virtual EVA UNLAR.
-\end_layout
-
-\begin_layout Enumerate
-Elaboración de material educativo digital.
- 
-\end_layout
-
-\begin_layout Enumerate
-Preparación de simulacros de exámenes.
- 
-\end_layout
-
-\begin_layout Enumerate
-Ser veedor de exámenes de certificación.
-\end_layout
-
-\begin_layout Subsubsection
-Dictado de clases presenciales
-\end_layout
-
-\begin_layout Standard
-Las clases presenciales constan de clases de cuatro horas de duración, en
- modalidad presencial.
- La misma se dividio en dos secciones, siendo dos horas de dictado teorico
- y dos horas de resolución de problemas practicos.
-\end_layout
-
-\begin_layout Standard
-Para poder elaborar las clases, el capacitador debe preparar el material
- teorico correspondiente en base a la planificación de clases previamente
- elaborada.
- Paso seguido, planificar o elaborar los ejercicios practicos que serán
- propuestos a los alumnos.
-\end_layout
-
-\begin_layout Standard
-Cada clase tiene como objetivo que el alumno aprenda un nuevo conocimiento
- relacionado con la programación e inmediatamente pueda aplicarlo en un
- ejemplo practico.
- 
-\end_layout
-
-\begin_layout Standard
-Entre los recursos educativos que se utilizaron fueron:
-\end_layout
-
-\begin_layout Itemize
-Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
-\end_layout
-
-\begin_layout Itemize
-
 \end_layout
 
 \end_body
