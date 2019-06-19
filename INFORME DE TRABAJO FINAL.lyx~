@@ -1,15 +1,10 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass scrartcl
-\begin_preamble
-% Added by lyx2lyx
-\renewcommand{\textendash}{--}
-\renewcommand{\textemdash}{---}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language spanish-mexico
@@ -26,6 +21,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -55,6 +52,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -63,7 +61,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -686,6 +687,16 @@ La relación contractual tuvo como vigencia el periodo comprendido por las
  fechas entre 10 de Septiembre de 2018 y 8 de Marzo de 2019.
 \end_layout
 
+\begin_layout Subsubsection
+Módulos del plan 111Mil
+\end_layout
+
+\begin_layout Standard
+El periodo de actividad estuvo seccionado en tres módulos correspondientes
+ al Plan 111Mil Programadores.
+ Dichos módulos y sus
+\end_layout
+
 \begin_layout Subsection
 Actividades solicitadas
 \end_layout
@@ -695,8 +706,7 @@ Planificación de calendario de clases.
 \end_layout
 
 \begin_layout Enumerate
-Dictado de clases presenciales acerca de programación orientada a objetos,
- manejo de bases de datos, desarrollo de software, entre otros.
+Dictado de clases presenciales.
 \end_layout
 
 \begin_layout Enumerate
@@ -715,6 +725,15 @@ Preparación de simulacros de exámenes.
 
 \begin_layout Enumerate
 Ser veedor de exámenes de certificación.
+\end_layout
+
+\begin_layout Subsubsection
+Planificación de calendario de clases
+\end_layout
+
+\begin_layout Standard
+El capacitador debe elaborar un calendario de clases detallando numero de
+ clase, tematica teorica y ejercicio práctico si lo hubiera.
 \end_layout
 
 \begin_layout Subsubsection
@@ -749,6 +768,51 @@ Entre los recursos educativos que se utilizaron fueron:
 
 \begin_layout Itemize
 Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
+\end_layout
+
+\begin_layout Itemize
+Actividades prácticas obtenidas del material bibliografico, diversos sitios
+ de internet, y elaborados por el propio capacitador.
+\end_layout
+
+\begin_layout Itemize
+Presentaciones de diapositivas elaboradas por el capacitador.
+\end_layout
+
+\begin_layout Subsubsection
+Manejo y administración del espacio de aprendizaje virtual EVA UNLAR
+\end_layout
+
+\begin_layout Standard
+El capacitador obtendrá una cuenta con el rol de 
+\begin_inset Quotes qld
+\end_inset
+
+Profesor
+\begin_inset Quotes qrd
+\end_inset
+
+ en el aula virtual del curso, establecida en el Espacio Virtual de Aprendizaje
+ (EVA).
+ El mismo es provisto por el área del SIU (Sistema de Información Universitaria)
+ a solicitud del Director de la Escuela de Informática.
+\end_layout
+
+\begin_layout Standard
+El rol de profesor permite al capacitador realizar las siguientes acciones
+ dentro del aula virtual:
+\end_layout
+
+\begin_layout Enumerate
+Agregar, editar o eliminar secciones.
+\end_layout
+
+\begin_layout Enumerate
+Agregar, editar o eliminar recursos como archivos y carpetas.
+\end_layout
+
+\begin_layout Enumerate
+Agregar tareas que permitan a los alumnos 
 \end_layout
 
 \end_body
