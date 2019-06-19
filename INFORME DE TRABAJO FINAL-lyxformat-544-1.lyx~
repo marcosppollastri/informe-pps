@@ -1,15 +1,10 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass scrartcl
-\begin_preamble
-% Added by lyx2lyx
-\renewcommand{\textendash}{--}
-\renewcommand{\textemdash}{---}
-\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language spanish-mexico
@@ -26,6 +21,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -55,6 +52,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -63,7 +61,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -214,8 +215,8 @@ El alumno realizó actividades laborales bajo relación contractual en la
 \end_layout
 
 \begin_layout Standard
-El alumno se desempeño bajo el cargo de Formador de Programación del curso
- de capacitación 
+El alumno se desempeño bajo el cargo de Capacitador de Programación del
+ curso de capacitación 
 \begin_inset Quotes eld
 \end_inset
 
@@ -230,10 +231,10 @@ Plan 111Mil Programadores - Analista del Conocimiento, Trayecto de Programador
 
 \begin_layout Standard
 Durante el transcurso de la relación contractual, el alumno desempeño el
- dicho rol por medio de dictado de clases presenciales, manejo de la plataforma
- EVA UNLaR, y elaboración de recursos de enseñanza digitales como pudiesen
- ser presentaciones de diapositivas, guías de actividades, vídeos en linea,
- entre otros.
+ rol de profesor por medio de dictado de clases presenciales, manejo de
+ la plataforma EVA UNLaR, y elaboración de recursos de enseñanza digitales
+ como pudiesen ser presentaciones de diapositivas, guías de actividades,
+ vídeos en linea, entre otros.
 \end_layout
 
 \begin_layout Standard
@@ -309,21 +310,13 @@ UNLaR
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Rector
-\shape default
-: Prof.
+Rector: Prof.
  Lic.
  Fabián Calderón.
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Vicerrector
-\shape default
-: Ing.
+Vicerrector: Ing.
  José Gaspanello.
 \end_layout
 
@@ -333,11 +326,8 @@ DACEFyN
 
 \begin_layout Enumerate
 
-\shape smallcaps
-Decano
 \series bold
-\shape default
-:
+Decano:
 \series default
  Lic.
  Marcelo Martínez.
@@ -353,38 +343,22 @@ Secretario Académico:
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Secretaria Administrativa
-\shape default
-: Srta.
+Secretaria Administrativa: Srta.
  Rosana Díaz.
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Subsecretario de Graduados
-\shape default
-: Lic.
+Subsecretario de Graduados: Lic.
  Luis Bazán.
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Subsecretaria Estudiantil
-\shape default
-: Srta.
+Subsecretaria Estudiantil: Srta.
  Leticia Aranda.
 \end_layout
 
 \begin_layout Enumerate
-
-\shape smallcaps
-Director de la Escuela de Informática
-\shape default
-: Lic.
+Director de la Escuela de Informática: Lic.
  Hernán Nieto.
 \end_layout
 
@@ -724,7 +698,7 @@ El periodo de actividad estuvo seccionado en tres módulos correspondientes
 \end_layout
 
 \begin_layout Subsection
-Actividades desempeñadas
+Actividades solicitadas
 \end_layout
 
 \begin_layout Enumerate
@@ -758,8 +732,8 @@ Planificación de calendario de clases
 \end_layout
 
 \begin_layout Standard
-El formador debe elaborar un calendario de clases detallando numero de clase,
- tematica teorica y ejercicio práctico si lo hubiera.
+El capacitador debe elaborar un calendario de clases detallando numero de
+ clase, tematica teorica y ejercicio práctico si lo hubiera.
 \end_layout
 
 \begin_layout Subsubsection
@@ -774,8 +748,9 @@ Las clases presenciales constan de clases de cuatro horas de duración, en
 \end_layout
 
 \begin_layout Standard
-Para poder elaborar las clases, el formador debe preparar el material teorico
- correspondiente en base a la planificación de clases previamente elaborada.
+Para poder elaborar las clases, el capacitador debe preparar el material
+ teorico correspondiente en base a la planificación de clases previamente
+ elaborada.
  Paso seguido, planificar o elaborar los ejercicios practicos que serán
  propuestos a los alumnos.
 \end_layout
@@ -797,11 +772,11 @@ Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
 
 \begin_layout Itemize
 Actividades prácticas obtenidas del material bibliografico, diversos sitios
- de internet, y elaborados por el propio formador.
+ de internet, y elaborados por el propio capacitador.
 \end_layout
 
 \begin_layout Itemize
-Presentaciones de diapositivas elaboradas por el formador.
+Presentaciones de diapositivas elaboradas por el capacitador.
 \end_layout
 
 \begin_layout Subsubsection
@@ -809,14 +784,22 @@ Manejo y administración del espacio de aprendizaje virtual EVA UNLAR
 \end_layout
 
 \begin_layout Standard
-El formador obtendrá una cuenta con el rol de "Profesor" en el aula virtual
- del curso, establecida en el Espacio Virtual de Aprendizaje (EVA).
+El capacitador obtendrá una cuenta con el rol de 
+\begin_inset Quotes qld
+\end_inset
+
+Profesor
+\begin_inset Quotes qrd
+\end_inset
+
+ en el aula virtual del curso, establecida en el Espacio Virtual de Aprendizaje
+ (EVA).
  El mismo es provisto por el área del SIU (Sistema de Información Universitaria)
  a solicitud del Director de la Escuela de Informática.
 \end_layout
 
 \begin_layout Standard
-El rol de profesor permite al formador realizar las siguientes acciones
+El rol de profesor permite al capacitador realizar las siguientes acciones
  dentro del aula virtual:
 \end_layout
 
@@ -835,125 +818,6 @@ Elaborar tareas que permitan a los alumnos enviar sus propias respuestas.
 \begin_layout Enumerate
 Añadir cuestionarios que permitan a los alumnos poner a prueba sus conocimientos
  teoricos.
-\end_layout
-
-\begin_layout Subsubsection
-Elaboración de material educativo digital
-\end_layout
-
-\begin_layout Standard
-El formador para desempeñar su tarea eficientemente, se espera que desarrolle
- material educativo como apuntes o presentaciones de diapositivas.
- Las mismas son soporte para llevar adelante una clase y permitir una mayor
- compresión de los temas por parte de los alumnos.
-\end_layout
-
-\begin_layout Standard
-A su vez, también se destaca la elaboración de código fuente de ejemplo
- para los temas vistos, el cual luego es proporcionado a los alumnos.
-\end_layout
-
-\begin_layout Subsubsection
-Preparación de simulacro de examen
-\end_layout
-
-\begin_layout Standard
-La instancia de evaluación para la certificación del Plan 111Mil supone
- un gran desafió para el alumno, pues son evaluados todos los contenidos
- del cursado.
- Desde la sede de la Universidad Nacional de La Rioja, se tomó entonces
- la decisión de implementar clases de preparación y entrenamiento para el
- examen.
-\end_layout
-
-\begin_layout Standard
-Las mismas tienen como objetivos para los alumnos:
-\end_layout
-
-\begin_layout Enumerate
-Poner en práctica sus destrezas y conocimientos adquiridos durante el cursado.
-\end_layout
-
-\begin_layout Enumerate
-Simular un ambiente de evaluación que ponga en situación a los alumnos y
- lo vivan como un examen real.
- Es decir, anticipa el ambiente emocionar que vivirá en la prueba oficial.
-\end_layout
-
-\begin_layout Enumerate
-Permitir conocer el tipo de preguntas a las que se enfrentarán el día del
- examen oficial.
-\end_layout
-
-\begin_layout Standard
-Los objetivos para la sede son:
-\end_layout
-
-\begin_layout Enumerate
-Elevar el porcentaje de aprobados en los distintos llamados de certificación.
-\end_layout
-
-\begin_layout Enumerate
-Elevar el nivel de inscriptos a los examenes y concientizarlos sobre las
- reglas y pautas de los mismos.
-\end_layout
-
-\begin_layout Enumerate
-Pregonar la excelencia academica por medio del desempeño de sus alumnos.
-\end_layout
-
-\begin_layout Standard
-La metodología para llevar a cabo el simulacro es la siguiente:
-\end_layout
-
-\begin_layout Enumerate
-Antes del día del simulacro.
- el formador elaborará un formulario Google Form basado en los examenes
- liberados por el Plan 111Mil Programadores.
- Dicho formulario será utilizado para simular al maximo la experiencia de
- examen.
-\end_layout
-
-\begin_layout Enumerate
-Al iniciar el simulacro, el formador presentará las pautas y reglas del
- mismo, que serán similares a la del exámen real.
- 
-\end_layout
-
-\begin_layout Enumerate
-Se dejara que los alumnos resuelvan los ejercicios propuestos de manera
- individual y solo atendiendo consultas aclaratorias de las consignas.
-\end_layout
-
-\begin_layout Enumerate
-Al finalizar, se entrega a los alumnos una devolución de sus respuestas,
- y se presenta en conjunto cuales son las respuestas correctas y el razonamiento
- a seguir para llegar a ellas.
-\end_layout
-
-\begin_layout Subsubsection
-Ser veedor de examenes de certificación
-\end_layout
-
-\begin_layout Standard
-Como formador, se espera que además se ocupe del rol de veedor de examen.
- Es importante notar el uso de la palabra veedor y no la de "evaluador"
- puesto que el formador no decide, elabora o corrige el examen de certificación.
- Dicho examen es realizado por el equipo del Plan 111Mil del Ministerio
- de Producción de la Nación.
- El mismo es enviado directamente por medio de correo electronico a los
- alumnos inscriptos en la hora de inicio de la instancia evaluatoria.
-\end_layout
-
-\begin_layout Standard
-Las tareas del veedor de examen son:
-\end_layout
-
-\begin_layout Enumerate
-Preparar el espacio fisico en el cual tomará lugar el examen.
- Esto incluye asegurar la disponibilidad de la conexión a internet, acceso
- a la electricidad por medio de zapatillas, y el funcionamiento de las computado
-ras en general.
 \end_layout
 
 \end_body

@@ -759,7 +759,7 @@ Planificación de calendario de clases
 
 \begin_layout Standard
 El formador debe elaborar un calendario de clases detallando numero de clase,
- tematica teorica y ejercicio práctico si lo hubiera.
+ temática teórica y ejercicio práctico si lo hubiera.
 \end_layout
 
 \begin_layout Subsubsection
@@ -769,14 +769,14 @@ Dictado de clases presenciales
 \begin_layout Standard
 Las clases presenciales constan de clases de cuatro horas de duración, en
  modalidad presencial.
- La misma se dividio en dos secciones, siendo dos horas de dictado teorico
- y dos horas de resolución de problemas practicos.
+ La misma se dividió en dos secciones, siendo dos horas de dictado teorico
+ y dos horas de resolución de problemas prácticos.
 \end_layout
 
 \begin_layout Standard
-Para poder elaborar las clases, el formador debe preparar el material teorico
+Para poder elaborar las clases, el formador debe preparar el material teórico
  correspondiente en base a la planificación de clases previamente elaborada.
- Paso seguido, planificar o elaborar los ejercicios practicos que serán
+ Paso seguido, planificar o elaborar los ejercicios prácticos que serán
  propuestos a los alumnos.
 \end_layout
 
@@ -792,11 +792,11 @@ Entre los recursos educativos que se utilizaron fueron:
 \end_layout
 
 \begin_layout Itemize
-Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
+Apunte oficial del Plan 111Mil Programadores a modo de bibliografía de cabecera.
 \end_layout
 
 \begin_layout Itemize
-Actividades prácticas obtenidas del material bibliografico, diversos sitios
+Actividades prácticas obtenidas del material bibliográfico, diversos sitios
  de internet, y elaborados por el propio formador.
 \end_layout
 
@@ -834,7 +834,7 @@ Elaborar tareas que permitan a los alumnos enviar sus propias respuestas.
 
 \begin_layout Enumerate
 Añadir cuestionarios que permitan a los alumnos poner a prueba sus conocimientos
- teoricos.
+ teóricos.
 \end_layout
 
 \begin_layout Subsubsection
@@ -894,12 +894,12 @@ Elevar el porcentaje de aprobados en los distintos llamados de certificación.
 \end_layout
 
 \begin_layout Enumerate
-Elevar el nivel de inscriptos a los examenes y concientizarlos sobre las
+Elevar el nivel de inscriptos a los exámenes y concientizarlos sobre las
  reglas y pautas de los mismos.
 \end_layout
 
 \begin_layout Enumerate
-Pregonar la excelencia academica por medio del desempeño de sus alumnos.
+Pregonar la excelencia académica por medio del desempeño de sus alumnos.
 \end_layout
 
 \begin_layout Standard
@@ -908,15 +908,15 @@ La metodología para llevar a cabo el simulacro es la siguiente:
 
 \begin_layout Enumerate
 Antes del día del simulacro.
- el formador elaborará un formulario Google Form basado en los examenes
+ el formador elaborará un formulario Google Form basado en los exámenes
  liberados por el Plan 111Mil Programadores.
- Dicho formulario será utilizado para simular al maximo la experiencia de
+ Dicho formulario será utilizado para simular al máximo la experiencia de
  examen.
 \end_layout
 
 \begin_layout Enumerate
 Al iniciar el simulacro, el formador presentará las pautas y reglas del
- mismo, que serán similares a la del exámen real.
+ mismo, que serán similares a la del examen real.
  
 \end_layout
 
@@ -941,7 +941,7 @@ Como formador, se espera que además se ocupe del rol de veedor de examen.
  puesto que el formador no decide, elabora o corrige el examen de certificación.
  Dicho examen es realizado por el equipo del Plan 111Mil del Ministerio
  de Producción de la Nación.
- El mismo es enviado directamente por medio de correo electronico a los
+ El mismo es enviado directamente por medio de correo electrónico a los
  alumnos inscriptos en la hora de inicio de la instancia evaluatoria.
 \end_layout
 
@@ -950,10 +950,25 @@ Las tareas del veedor de examen son:
 \end_layout
 
 \begin_layout Enumerate
-Preparar el espacio fisico en el cual tomará lugar el examen.
+Preparar el espacio físico en el cual tomará lugar el examen.
  Esto incluye asegurar la disponibilidad de la conexión a internet, acceso
  a la electricidad por medio de zapatillas, y el funcionamiento de las computado
 ras en general.
+\end_layout
+
+\begin_layout Enumerate
+Verificar que el examen se tome de acuerdo a lo dispuesto por el Plan 111Mil
+ (ver anexo), como pudiese ser verificar que los alumnos no utilizen Interfaces
+ de Desarrollo o editores de código, que no hagan uso de busquedas en internet
+ o ver material de lectura prohibido.
+\end_layout
+
+\begin_layout Enumerate
+En caso que un alumno termine el examen, y el mismo no haya roto ninguna
+ de las normas, deberá entregar el "código de verificación".
+ El mismo es enviado por el Plan 111Mil con anterioridad y consta de una
+ cadena de seis caracteres alfanumericos.
+ Su objetivo es validar que dic
 \end_layout
 
 \end_body
