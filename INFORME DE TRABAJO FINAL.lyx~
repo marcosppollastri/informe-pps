@@ -1,14 +1,12 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass scrartcl
 \begin_preamble
-% Added by lyx2lyx
-\renewcommand{\textendash}{--}
-\renewcommand{\textemdash}{---}
+\usepackage{indentfirst}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -26,6 +24,8 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -55,6 +55,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -63,7 +64,10 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language french
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -202,20 +206,31 @@ LatexCommand tableofcontents
 
 \end_layout
 
+\begin_layout Part
+Informe Final
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Resumen
 \end_layout
 
 \begin_layout Standard
-El alumno realizó actividades laborales bajo relación contractual en la
- Universidad Nacional de La Rioja (UNLaR), específicamente en la Escuela
- de Informática de la misma, dependiente de la Subsecretaría de Graduados
- del Departamento Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN).
+El alumno realizó actividades laborales en la Universidad Nacional de La
+ Rioja (UNLaR), específicamente en la Escuela de Informática de la misma,
+ dependiente del Decanato del Departamento Académico de Ciencias Exactas,
+ Físicas y Naturales (DACEFyN).
 \end_layout
 
 \begin_layout Standard
-El alumno se desempeño bajo el cargo de Formador de Programación del curso
- de capacitación 
+El alumno se desempeño en el rol de Formador de Programación del curso de
+ capacitación 
 \begin_inset Quotes eld
 \end_inset
 
@@ -229,8 +244,8 @@ Plan 111Mil Programadores - Analista del Conocimiento, Trayecto de Programador
 \end_layout
 
 \begin_layout Standard
-Durante el transcurso de la relación contractual, el alumno desempeño el
- dicho rol por medio de dictado de clases presenciales, manejo de la plataforma
+Durante el transcurso del trayecto formativo, el alumno realizó actividades
+ tales como: dictado de clases presenciales, administración de la plataforma
  EVA UNLaR, y elaboración de recursos de enseñanza digitales como pudiesen
  ser presentaciones de diapositivas, guías de actividades, vídeos en linea,
  entre otros.
@@ -281,23 +296,22 @@ La Educación Superior tiene por finalidad proporcionar formación científica,
 Su representante es el Sr.
  Rector de la Universidad, Prof.
  Lic.
- Fabián Calderón, electo democráticamente según lo establecido en el Estatuto
- Universitario.
+ Fabián Calderón, electo democráticamente según lo establecido en el vigente
+ Estatuto Universitario.
 \end_layout
 
 \begin_layout Standard
 La UNLaR tiene presencia en todos los departamentos de la provincia a través
  de sedes, siendo la Sede Capital la central.
  La misma se encuentra ubicada en Av.
- Laprida XXXX, de la Ciudad de La Rioja (C.P 5300).
+ Laprida S/N, de la Ciudad de La Rioja (C.P 5300).
 \end_layout
 
 \begin_layout Standard
 A su vez, posee una organización basada en Departamentos Académicos, distintos
  de la clásica distribución en facultades.
  Siendo la actividad expuesta en este informe, realizada en el Departamento
- Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN), y su correspondie
-nte Subsecretaría de Graduados.
+ Académico de Ciencias Exactas, Físicas y Naturales (DACEFyN).
 \end_layout
 
 \begin_layout Subsection
@@ -399,8 +413,8 @@ A continuación se presenta el organigrama del Departamento Académico de
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename img/organigrama.png
-	scale 40
+	filename img/Captura de pantalla de 2019-06-20 22-43-56.png
+	scale 150
 
 \end_inset
 
@@ -412,7 +426,7 @@ Objetivos
 \end_layout
 
 \begin_layout Standard
-Según el árticulo 4º de la Ley de Educación Superior, los objetivos de toda
+Según el articulo 4º de la Ley de Educación Superior, los objetivos de toda
  Universidad deben ser:
 \end_layout
 
@@ -477,7 +491,7 @@ Acerca del Plan 111Mil Programadores
 El Plan 111Mil Programadores es un plan nacional creado por el Ministerio
  de Producción de la Nación en el año 2016.
  El mismo tiene como objetivo la formación de 111 mil profesionales de programac
-ión en la Republica Argentina, a través de la intervención de dictados de
+ión en la República Argentina, a través de la intervención de dictados de
  cursos intensivos de formación preparados para las exigencias del mercado
  laboral actual.
  
@@ -500,21 +514,20 @@ Metodologías de desarrollo.
 \end_layout
 
 \begin_layout Itemize
-Manejo de Bases de Datos en MySQL.
+Gestión de Bases de Datos en MySQL.
 \end_layout
 
 \begin_layout Standard
 Al finalizar el cursado, el alumno podrá tomar un examen que lo certifique
- como "Análista del conocimiento - trayecto programador".
- 
+ como "Analista del conocimiento - trayecto programador".
 \end_layout
 
 \begin_layout Standard
 En este marco, la Universidad Nacional de La Rioja por intermedio de la
- Escuela de Informática perteneciente a la sub secretaría de Graduados del
- Departamento Academico de Ciencias Exactas, Fisicas y Naturales, se adhiere
- a este plan para convertirse en una sede más del mismo, permitiendo su
- dictado para las personas residentes de la Ciudad de La Rioja.
+ Escuela de Informática perteneciente al Departamento Académico de Ciencias
+ Exactas, Físicas y Naturales, se adhiere a este plan para convertirse en
+ una sede más del mismo, permitiendo su dictado para las personas residentes
+ de la Ciudad de La Rioja.
 \end_layout
 
 \begin_layout Subsection
@@ -709,18 +722,235 @@ Periodos de actividad
 \end_layout
 
 \begin_layout Standard
-La relación contractual tuvo como vigencia el periodo comprendido por las
- fechas entre 10 de Septiembre de 2018 y 8 de Marzo de 2019.
+La relación laboral tuvo como vigencia el periodo comprendido por las fechas
+ entre 10 de Septiembre de 2018 y 8 de Marzo de 2019.
 \end_layout
 
 \begin_layout Subsubsection
-Módulos del plan 111Mil
+Módulos del plan 111Mil dictados
 \end_layout
 
 \begin_layout Standard
 El periodo de actividad estuvo seccionado en tres módulos correspondientes
- al Plan 111Mil Programadores.
- Dichos módulos y sus
+ al Plan 111Mil Programadores:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="1.5cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Módulo Nº
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tema
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objetivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fecha de inicio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fecha de finalización
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Programación Orientada a Objetos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Que el alumno comprenda y adquiera los conocimientos más relevantes de la
+ programación orientada a objetos utilizando UML como lenguaje de modelado
+ y Java como lenguaje de programación
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+03/09/2018
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+05/10/2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Base de Datos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Que el alumno comprenda los conceptos esenciales para el manejo y la gestión
+ de bases de datos, utilizando el motor de base de datos MySQL y el lenguaje
+ de consultas SQL.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+08/10/2018
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/11/2018
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Desarrollo de Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Que el alumno comprenda el proceso de desarrollo de un software en un equipo
+ de trabajo.
+ Diferentes metodologías de desarrollo y su relación con los conceptos de
+ los módulos anteriores.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+18/02/2019
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+08/03/2019
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -736,17 +966,15 @@ Dictado de clases presenciales.
 \end_layout
 
 \begin_layout Enumerate
-Manejo y administración del espacio de aprendizaje virtual EVA UNLAR.
+Gestión y administración del espacio de aprendizaje virtual EVA UNLAR.
 \end_layout
 
 \begin_layout Enumerate
 Elaboración de material educativo digital.
- 
 \end_layout
 
 \begin_layout Enumerate
 Preparación de simulacros de exámenes.
- 
 \end_layout
 
 \begin_layout Enumerate
@@ -759,7 +987,7 @@ Planificación de calendario de clases
 
 \begin_layout Standard
 El formador debe elaborar un calendario de clases detallando numero de clase,
- tematica teorica y ejercicio práctico si lo hubiera.
+ temática teórica y ejercicio práctico si lo hubiera.
 \end_layout
 
 \begin_layout Subsubsection
@@ -769,14 +997,14 @@ Dictado de clases presenciales
 \begin_layout Standard
 Las clases presenciales constan de clases de cuatro horas de duración, en
  modalidad presencial.
- La misma se dividio en dos secciones, siendo dos horas de dictado teorico
- y dos horas de resolución de problemas practicos.
+ La misma se dividió en dos secciones, siendo dos horas de dictado teórico
+ y dos horas de resolución de problemas prácticos.
 \end_layout
 
 \begin_layout Standard
-Para poder elaborar las clases, el formador debe preparar el material teorico
+Para poder elaborar las clases, el formador debe preparar el material teórico
  correspondiente en base a la planificación de clases previamente elaborada.
- Paso seguido, planificar o elaborar los ejercicios practicos que serán
+ Paso seguido, planificar o elaborar los ejercicios prácticos que serán
  propuestos a los alumnos.
 \end_layout
 
@@ -792,11 +1020,11 @@ Entre los recursos educativos que se utilizaron fueron:
 \end_layout
 
 \begin_layout Itemize
-Apunte oficial del Plan 111Mil Programadores a modo de bibliografia de cabecera.
+Apunte oficial del Plan 111Mil Programadores a modo de bibliografía de cabecera.
 \end_layout
 
 \begin_layout Itemize
-Actividades prácticas obtenidas del material bibliografico, diversos sitios
+Actividades prácticas obtenidas del material bibliográfico, diversos sitios
  de internet, y elaborados por el propio formador.
 \end_layout
 
@@ -805,7 +1033,7 @@ Presentaciones de diapositivas elaboradas por el formador.
 \end_layout
 
 \begin_layout Subsubsection
-Manejo y administración del espacio de aprendizaje virtual EVA UNLAR
+Gestión y administración del espacio de aprendizaje virtual EVA UNLAR
 \end_layout
 
 \begin_layout Standard
@@ -834,7 +1062,7 @@ Elaborar tareas que permitan a los alumnos enviar sus propias respuestas.
 
 \begin_layout Enumerate
 Añadir cuestionarios que permitan a los alumnos poner a prueba sus conocimientos
- teoricos.
+ teóricos.
 \end_layout
 
 \begin_layout Subsubsection
@@ -894,12 +1122,12 @@ Elevar el porcentaje de aprobados en los distintos llamados de certificación.
 \end_layout
 
 \begin_layout Enumerate
-Elevar el nivel de inscriptos a los examenes y concientizarlos sobre las
+Elevar el nivel de inscriptos a los exámenes y concientizarlos sobre las
  reglas y pautas de los mismos.
 \end_layout
 
 \begin_layout Enumerate
-Pregonar la excelencia academica por medio del desempeño de sus alumnos.
+Pregonar la excelencia académica por medio del desempeño de sus alumnos.
 \end_layout
 
 \begin_layout Standard
@@ -908,16 +1136,15 @@ La metodología para llevar a cabo el simulacro es la siguiente:
 
 \begin_layout Enumerate
 Antes del día del simulacro.
- el formador elaborará un formulario Google Form basado en los examenes
+ el formador elaborará un formulario Google Form basado en los exámenes
  liberados por el Plan 111Mil Programadores.
- Dicho formulario será utilizado para simular al maximo la experiencia de
+ Dicho formulario será utilizado para simular al máximo la experiencia de
  examen.
 \end_layout
 
 \begin_layout Enumerate
 Al iniciar el simulacro, el formador presentará las pautas y reglas del
- mismo, que serán similares a la del exámen real.
- 
+ mismo, que serán similares a la del examen real.
 \end_layout
 
 \begin_layout Enumerate
@@ -932,7 +1159,7 @@ Al finalizar, se entrega a los alumnos una devolución de sus respuestas,
 \end_layout
 
 \begin_layout Subsubsection
-Ser veedor de examenes de certificación
+Ser veedor de exámenes de certificación
 \end_layout
 
 \begin_layout Standard
@@ -941,7 +1168,7 @@ Como formador, se espera que además se ocupe del rol de veedor de examen.
  puesto que el formador no decide, elabora o corrige el examen de certificación.
  Dicho examen es realizado por el equipo del Plan 111Mil del Ministerio
  de Producción de la Nación.
- El mismo es enviado directamente por medio de correo electronico a los
+ El mismo es enviado directamente por medio de correo electrónico a los
  alumnos inscriptos en la hora de inicio de la instancia evaluatoria.
 \end_layout
 
@@ -950,10 +1177,400 @@ Las tareas del veedor de examen son:
 \end_layout
 
 \begin_layout Enumerate
-Preparar el espacio fisico en el cual tomará lugar el examen.
+Preparar el espacio físico en el cual tomará lugar el examen.
  Esto incluye asegurar la disponibilidad de la conexión a internet, acceso
  a la electricidad por medio de zapatillas, y el funcionamiento de las computado
 ras en general.
+\end_layout
+
+\begin_layout Enumerate
+Tomar asistencia de los alumnos presentes y firmarla.
+\end_layout
+
+\begin_layout Enumerate
+Verificar que el examen se tome de acuerdo a lo dispuesto por el Plan 111Mil
+ (ver anexo), como pudiese ser verificar que los alumnos no utilicen Interfaces
+ de Desarrollo o editores de código, que no hagan uso de búsquedas en internet
+ o ver material de lectura prohibido.
+\end_layout
+
+\begin_layout Enumerate
+En caso que un alumno termine el examen, y el mismo no haya roto ninguna
+ de las normas, el veedor es responsable de entregar el "código de verificación"
+ a dicho alumno.
+ El mismo es enviado por el Plan 111Mil con anterioridad y consta de una
+ cadena de seis caracteres alfanuméricos.
+ Su objetivo es validar que dicho examen fue tomado bajo condiciones correctas.
+ El veedor tiene la autoridad de negar el examen si considera que el alumno
+ ha roto las reglas de las fue informado previamente.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusión
+\end_layout
+
+\begin_layout Standard
+Como resultado de las horas efectuadas en su relación laboral, el Alumno
+ logro hacer propios las siguientes destrezas y aptitudes:
+\end_layout
+
+\begin_layout Enumerate
+Aprendizaje de todo lo referente a coordinar la actividad de enseñanza,
+ como pudiese ser la preparación de clases y material educativo.
+\end_layout
+
+\begin_layout Enumerate
+Habilidad de exposición oral de temas altamente técnicos y específicos inherente
+s a su profesión.
+\end_layout
+
+\begin_layout Enumerate
+Seguridad y pericia de temas pertinentes a la programación, como lo es la
+ programación en Java.
+\end_layout
+
+\begin_layout Enumerate
+Habilidad para preparar material educativo diverso, como presentación de
+ diapositivas y videos online.
+\end_layout
+
+\begin_layout Enumerate
+Gestión de grupos de trabajo, al coordinar actividades propuestas para sus
+ alumnos.
+\end_layout
+
+\begin_layout Enumerate
+Experiencia en un ambiente laboral amplio bajo relación de dependencia,
+ donde debió coordinar con sus superiores y compañeros de trabajo su actividad,
+ donde logro llevar una comunicación fluida con los mismos.
+\end_layout
+
+\begin_layout Standard
+El alumno considera además, que la actividad fue de gran ayuda para mejorar
+ su perfil en futuras intervenciones en la rama de la educación, ya sea
+ en el área de docencia universitaria o como capacitador.
+\end_layout
+
+\begin_layout Standard
+A modo de sugerencia, para ayudar a mejorar la integración del Plan 111Mil
+ con la comunidad riojana, el alumno propone:
+\end_layout
+
+\begin_layout Itemize
+Reforzar la tasa de inscripciones a partir de charlas o eventos informativos
+ acerca de la profesión del programador.
+\end_layout
+
+\begin_layout Itemize
+Elaborar material de clases en formato de videos en linea para expandir
+ la llegada de los conocimientos dictados a quienes no pudiesen asistir
+ de manera presencial al dictado de clases normal.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\noindent
+ANEXO
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Notas
+\end_layout
+
+\begin_layout Standard
+Se adjuntan las notas presentadas ante el Señor Profesor Emilio Rearte,
+ profesor a cargo de la cátedra Práctica Profesional Supervisada:
+\end_layout
+
+\begin_layout Enumerate
+Nota de solicitud de Regularidad Automática por parte del alumno Marcos
+ Joaquin Peña Pollastri.
+\end_layout
+
+\begin_layout Enumerate
+Nota de certificación de la actividad laboral realizada por el alumno por
+ parte del Señor Director de la Escuela de Informática, Lic.
+ Hernán Nieto.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Plan de estudios del Plan 111Mil Programadores
+\end_layout
+
+\begin_layout Standard
+Se adjunta el plan de estudios del Plan 111Mil programadores a partir de
+ los indices de sus apuntes oficiales.
+ Los mismos pueden ser obtenidos de manera libre y gratuita en el repositorio
+ de GitHub:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "https://github.com/111milprogramadores/apuntes"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename img/Captura de pantalla de 2019-06-21 00-01-19.png
+	scale 165
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Fotos
+\end_layout
+
+\begin_layout Standard
+A continuación se pueden apreciar diversas fotos de las clases del Plan
+ 111Mil en las cuales participó el alumno.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Aula 206 del Módulo 3, UNLAR, Sede Capital.
+ Espacio físico de clases.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/fotos/48395793_2034669570126987_4420576466429804544_o.jpg
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Primera clase y presentación del Plan 111Mil
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/fotos/59301307_2107535292840414_4503773857013825536_n.jpg
+	scale 45
+	groupId Fotografía
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+El alumno junto con el Director de la Escuela de Informática, Lic.
+ Hernán Nieto
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/fotos/50973666_2063351467258797_150299842197848064_n.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Videos en línea
+\end_layout
+
+\begin_layout Standard
+El alumno como parte de sus actividades realizó videos tutoriales en línea
+ para sus estudiantes.
+ Los mismos pueden ser accedidos en la plataforma YouTube por medio del
+ siguiente enlace o escaneando los códigos QR a continuación:
+\end_layout
+
+\begin_layout Enumerate
+Tutorial instalación PSeInt: 
+\begin_inset Newline linebreak
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.youtube.com/watch?v=Ll2Cv6p1xv8"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/qr/tutorial instalacion.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+¿Como subir mis ejercicios en EVA UNLAR? 111Mil 
+\begin_inset Newline linebreak
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+target "https://www.youtube.com/watch?v=u0ntOdEz3cg"
+
+\end_inset
+
+
+\begin_inset Newline linebreak
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/qr/como subir ejercicios.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Pautas para veedores de examen de certificación
+\end_layout
+
+\begin_layout Standard
+Se adjuntan las Pautas para veedores de examen de certificación enviadas
+ por el Plan 111Mil vía correo electrónico.
 \end_layout
 
 \end_body
