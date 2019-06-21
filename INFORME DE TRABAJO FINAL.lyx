@@ -1206,7 +1206,7 @@ En caso que un alumno termine el examen, y el mismo no haya roto ninguna
  de las normas, el veedor es responsable de entregar el "código de verificación"
  a dicho alumno.
  El mismo es enviado por el Plan 111Mil con anterioridad y consta de una
- cadena de seis caracteres alfanuméricos.
+ cadena de cinco caracteres alfanuméricos.
  Su objetivo es validar que dicho examen fue tomado bajo condiciones correctas.
  El veedor tiene la autoridad de negar el examen si considera que el alumno
  ha roto las reglas de las fue informado previamente.
